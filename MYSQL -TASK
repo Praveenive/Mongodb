@@ -1,0 +1,49 @@
+CREATE TABLE movies (
+    id INTEGER,
+    name TEXT,
+    media BLOB,
+    movie_year INTEGER
+  );
+  INSERT INTO Movies values(1,"Karnan","karnan.mp4",2022)
+  INSERT INTO Movies values(12,"Asuran","asurandhanushhd.mp4",2021)
+  INSERT INTO Movies values(15,"Vada Chnnai","vadachennai.jpg",2022)
+  INSERT INTO Movies values(66,"Ms dhoni Untold story","untoldstorymsdhoni.mp4",2020)  
+  
+  
+
+CREATE TABLE Movie_Genre(
+    Movie_id Integer,
+    Genre_id Integer,
+    Movie_type Text
+    );
+    INSERT INTO Movie_Genre values(12,101,"Action")
+    INSERT INTO Movie_Genre values(1,102,"Action")
+    INSERT INTO Movie_Genre values(15,103,"Thriller")
+    INSERT INTO Movie_Genre values(66,104,"Motivational")
+    
+    
+
+    CREATE TABLE Movie_Rating(
+        user_Id Integer,
+        user_name Text,
+        Rating Integer,
+        Comments Text
+        )
+    INSERT INTO movie_rating values(1,'gautham',8.5,'Climax very good')
+    INSERT INTO movie_rating values(12,'Rahul',9.7,'Importance of education')
+    INSERT INTO movie_rating values(15,'David',9,'Unexpected thoughts')
+    INSERT INTO movie_rating values(66,'Bharthi',8,'Great biography movie')
+    
+    
+
+    CREATE TABLE Artist (
+        Artist_Id Integer,
+        Artist_Nmae Text,
+        skills Text,
+        Role Text
+        );
+
+    INSERT INTO ARTIST Values(1,"Dhanush","Actor","Hero")
+    INSERT INTO ARTIST Values(15,"Dhanush","Singing","Singer")
+    INSERT INTO ARTIST Values(12,"Dhanush","Dancing","Dancer")
+    INSERT INTO ARTIST Values(66,"Dhoni","Cricket","Captain")
