@@ -263,9 +263,10 @@ db.companydrives.find(
         },{
         Company_appeared_month:"October"
     },{
-        Company_appeare,
+        Company_appeared_Year:2020,
     }]}
 )
+
 
 // Q3)Find all the company drives and students who are appeared for_the_placement.
 db.users.find({
